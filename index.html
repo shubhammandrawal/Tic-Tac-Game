@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <section class="container">
+    <section class="title">
+        <h2>Tic-Tac-Toe</h2>
+        <h2>Game</h2>
+    </section>
+    <section class="table">
+        <table>
+            <tr>
+                <td class="cell" onclick="playermove(this)"></td>
+                <td class="cell" onclick="playermove(this)"></td>
+                <td class="cell" onclick="playermove(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" onclick="playermove(this)"></td>
+                <td class="cell" onclick="playermove(this)"></td>
+                <td class="cell" onclick="playermove(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" onclick="playermove(this)"></td>
+                <td class="cell" onclick="playermove(this)"></td>
+                <td class="cell" onclick="playermove(this)"></td>
+            </tr>
+        </table>
+    </section>
+    <section class="status">
+        <div id="playerturn">Turn of "X"</div>
+        <div id="status"></div>
+    </section>
+    <section class="btn">
+        <button onclick="reset()">Reset</button>
+    </section>
+</section>
+</body>
+</html>
